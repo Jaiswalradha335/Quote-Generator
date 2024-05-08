@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'playfair Display',serif;
 }
 body{
     background: #bbc6fa;
@@ -23,7 +24,7 @@ body{
     margin-bottom: 40px;
     position: relative;
 }
-.quote-box ::after{
+.quote-box h2::after{
     content: '';
     width: 75px;
     height: 3px;
@@ -39,7 +40,7 @@ body{
     min-height: 110px;
 }
 .quote-box blockquote::before, .quote-box blockquote::after{
-    content: ' " ';
+    content: '  ';
 }
 .quote-box span{
     display: block;
